@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Minimização de LFA
 
 <div align="center">
   <img src="https://img.shields.io/badge/Versão-1.0-blue.svg" alt="Versão 1.0">
@@ -9,31 +9,24 @@
 
 ## Resumo do Trabalho
 
-> **[Insira aqui um breve resumo do projeto, destacando seus objetivos, importância e principais resultados. Apresente o contexto geral e a motivação para que leitores e avaliadores (por exemplo, da Universidade de Stanford) compreendam rapidamente a relevância do trabalho. Tente ser conciso e objetivo, mas traga os aspectos centrais da sua pesquisa ou desenvolvimento.]**
+> **A minimização de um autômato finito determinístico (AFD) é uma etapa fundamental no estudo da teoria da computação e na prática da engenharia de software. Esse processo tem como objetivo simplificar um AFD, reduzindo-o ao menor número possível de estados, sem alterar seu comportamento ou a linguagem que ele aceita. Essa simplificação é essencial para garantir maior eficiência computacional e economia de recursos, aspectos indispensáveis em aplicações que demandam alta performance. O conceito de minimização de AFDs começou a ser explorado na década de 1950, com o desenvolvimento da teoria dos autômatos e linguagens formais, por meio de contribuições de cientistas como Kleene, Rabin e Scott. Esses estudos estabeleceram as bases para a compreensão do comportamento e da estrutura dos autômatos. Desde então, métodos sistemáticos para a minimização de AFDs foram desenvolvidos, como o uso de tabelas de distinção e o algoritmo de equivalência de estados. **
 
 ## Descrição
 
-> **[Forneça uma descrição mais detalhada do seu trabalho. Explique as tecnologias utilizadas, a metodologia aplicada, o processo de desenvolvimento, desafios enfrentados e as soluções adotadas. Caso seja um projeto de software, descreva funcionalidades, requisitos, arquitetura e qualquer informação técnica relevante. Você também pode incluir instruções de instalação, configuração e uso, se desejar.]**
+> **A minimização de AFDs tem como principal finalidade aumentar a eficiência de sistemas que utilizam autômatos, como compiladores, análise léxica, verificação de sistemas e compressão de dados. Além disso, a simplificação facilita a análise e implementação de AFDs, reduzindo a complexidade de projetos que dependem dessas estruturas. Neste trabalho, será explorado o processo de minimização de AFDs, abordando os fundamentos teóricos e apresentando uma implementação prática que demonstra a aplicação desse conceito em cenários reais.**
 
 ## Estrutura do Repositório 
 
-- **`/apresentacoes/`**: Apresentações relacionadas ao projeto (slides, vídeos, PDFs).
-- **`/docs/`**: Documentações adicionais (diagramas, relatórios, manuais).
-- **`/src/`**: Código-fonte principal.
-- **`/tests/`**: Scripts de testes. (Opcional)
-- **`/assets/`**: Imagens, ícones e outros recursos estáticos. (Opcional)
+- **`Apresentação LFA.pd`**: Slides da apresentação.
+- **`Minimização_AFD.ipynb`**: Código com a minimização.
+- **`Trabalho AFD João Lucas e Bruno Carvalho.pdf`**: Código-fonte principal.
 
-Caso seu projeto tenha uma estrutura diferente, sinta-se à vontade para adaptar este tópico.
-
----
 
 ## Autores
 
-- [Autor 1](mailto:1@discente.ufma.br)  
-- [Autor 2](mailto:2@discente.ufma.br)  
-- [Autor 3](mailto:3@discente.ufma.br)  
-- [Autor 4](mailto:4@discente.ufma.br)
-
+- [Bruno Carvalho da Silva](bruno.carvalho1@discente.ufma.br)  
+- [João Lucas Silva Da Silva](jls.silva@discente.ufma.br)
+    
 ---
 
 ## Agradecimentos
@@ -46,24 +39,16 @@ Agradecemos a todas as pessoas e instituições que contribuíram para a realiza
 
 ---
 
-## Outros Repositórios
-
-> **[Liste aqui os links para outros repositórios que fazem parte do seu portfólio ou que complementam este projeto. Exemplo:]**
-
-- [Link para outro projeto no Git](https://github.com/usuario/outro-projeto)
-- [Link para documentação complementar](https://github.com/usuario/documentacao)
-
----
 
 ## Copyright / License
 
-Este material é resultado de um trabalho acadêmico para a disciplina **XXXXXXXXXXX**, sob a orientação do professor **Dr. THALES LEVI AZEVEDO VALENTE**, no semestre letivo **202X.X**, do curso de **Engenharia da Computação** na Universidade Federal do Maranhão (**UFMA**).
+Este material é resultado de um trabalho acadêmico para a disciplina **Linguagens formais e automatos**, sob a orientação do professor **Dr. THALES LEVI AZEVEDO VALENTE**, no semestre letivo **2024.2**, do curso de **Engenharia da Computação** na Universidade Federal do Maranhão (**UFMA**).
 
 Todo o material sob esta licença é **software livre**: pode ser usado para fins acadêmicos e comerciais **sem nenhum custo**. Não há papelada, nem royalties, nem restrições de “copyleft” do tipo GNU. Ele é licenciado sob os termos da **Licença MIT**, reproduzida abaixo, e, portanto, é compatível com a GPL e também se qualifica como software de código aberto. É de domínio público. O espírito desta licença é que você é livre para usar este material para qualquer finalidade, sem nenhum custo. O único requisito é que, se você usá-lo, nos dê crédito.
 
 
 
-Copyright © 202X Material Educacional
+Copyright © 2025 Material Educacional
 
 Este material está licenciado sob a Licença MIT. É permitido o uso, cópia, modificação, e distribuição deste material para qualquer fim, desde que acompanhado deste aviso de direitos autorais.
 
@@ -71,7 +56,7 @@ O MATERIAL É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
 
 Para mais informações sobre a Licença MIT: https://opensource.org/licenses/MIT.
 
-Copyright © 202X Educational Material
+Copyright © 2025 Educational Material
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
