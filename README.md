@@ -19,7 +19,7 @@
 
 - **`Apresentação LFA.pd`**: Slides da apresentação.
 - **`Minimização_AFD.ipynb`**: Código com a minimização.
-- **`Trabalho AFD João Lucas e Bruno Carvalho.pdf`**: Código-fonte principal.
+- **`Trabalho AFD João Lucas e Bruno Carvalho.pdf`**: Artigo do trabalho.
 
 
 ## Autores
